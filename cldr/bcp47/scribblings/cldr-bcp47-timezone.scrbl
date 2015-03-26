@@ -50,7 +50,7 @@ is returned.
 ]}
 
 @defproc[(bcp47-canonical-tzid [tzid string?]) (or/c string? #f)]{
-Returns the canonical form (according to BCP47) of the giveb Olson/IANA-style time zone ID.
+Returns the canonical form (according to BCP47) of the given Olson/IANA-style time zone ID.
 If there is no canonical version of @racket[tzid] then @racket[#f] is returned.
 
 @examples[#:eval the-eval
